@@ -20,5 +20,4 @@ label monika_random_love_you:
     menu :
         "Yes, [m_name]?":
             m 5hublb "I love you~"
-            $ ev.shown_count=0
             return "love"
